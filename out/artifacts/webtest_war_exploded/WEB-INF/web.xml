@@ -14,6 +14,15 @@
     </servlet-mapping>
 
     <servlet>
+        <servlet-name>edit</servlet-name>
+        <servlet-class>app.servlets.EditServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>edit</servlet-name>
+        <url-pattern>/edit</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>list</servlet-name>
         <servlet-class>app.servlets.ListServlet</servlet-class>
     </servlet>

@@ -1,4 +1,5 @@
-<%@ page import="java.util.List" %><%--
+<%@ page import="java.util.List" %>
+<%@ page import="java.util.Map" %><%--
   Created by IntelliJ IDEA.
   User: dolodarenko
   Date: 21.03.2018
@@ -22,21 +23,62 @@
                 <h2>Bunnies</h2>
             </div>
             <%
-                List<String> names = (List<String>) request.getAttribute("userNames");
+                Map<Integer, String> users = (Map<Integer, String>) request.getAttribute("users");
 
-                if (names != null && !names.isEmpty())
+                if (users != null && !users.isEmpty())
                 {
+                	out.println("<form class=\"w3-container\" action=\"/webtest/list\" method=\"POST\">");
+
+                	out.println("<table class=\"w3-table-all w3-hoverable w3-centered\">");
+
+                    //Заголовок таблицы
+                	out.println("<tr>");
+                    out.println("<th>ID</th>");
+                    out.println("<th>Name</th>");
+                    out.println("<th>  </th>");
+                    out.println("<th>  </th>");
+                    out.println("</tr>");
+
+                    //данные
+                    for (Map.Entry<Integer, String> value : users.entrySet())
+                    {
+                        out.println("<tr class=\"w3-hover-light-blue\">");
+                        out.println("<td><input class=\"w3-input w3-border-0\" type=\"text\" maxlength=\"5\" size=\"5\" name=\"id\" value=\"" + value.getKey() + "\" readonly></td>");
+                        out.println("<td>" + value.getValue() + "</td>");
+                        out.println("<td><input type=\"submit\" value=\"Edit\" name=\"Edit\"/></td>");
+                        out.println("<td><input type=\"submit\" value=\"Delete\" name=\"Delete\"/></td>");
+                        out.println("</tr>");
+                    }
+
+                    out.println("</table>");
+
+                    out.println("</form>");
+
+                    /*
                     out.println("<ul class=\"w3-ul\">");
                     for (String s : names)
                         out.println("<li class=\"w3-hover-sand\">" + s + "</li>");
                     out.println("</ui>");
+                    */
+
+                    out.println("<div class=\"w3-container w3-center\">" +
+                            "<div class=\"w3-bar w3-padding-large w3-padding-24\">" +
+                            "<button class=\"w3-btn w3-hover-green w3-round-large\" onclick=\"location.href='/webtest/add'\">Add a bunny</button>" +
+                            "</div></div>");
                 }
                 else
-                	out.println("<div class=\"w3-panel w3-red w3-display-container w3-card-4 w3-round\">\n" +
+                {
+                    out.println("<div class=\"w3-panel w3-red w3-display-container w3-card-4 w3-round\">\n" +
                             "   <span onclick=\"this.parentElement.style.display='none'\"\n" +
                             "   class=\"w3-button w3-margin-right w3-display-right w3-round-large w3-hover-red w3-border w3-border-red w3-hover-border-grey\">×</span>\n" +
                             "   <h5>There are no bunnies yet!</h5>\n" +
                             "</div>");
+
+                    out.println("<div class=\"w3-container w3-center\">" +
+                            "<div class=\"w3-bar w3-padding-large w3-padding-24\">" +
+                            "<button class=\"w3-btn w3-hover-green w3-round-large\" onclick=\"location.href='/webtest/add'\">Add a bunny</button>" +
+                            "</div></div>");
+                }
             %>
         </div>
     </div>
