@@ -8,31 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bec617e1-3075-45df-83d0-8e836af8dc72" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webtest_war_exploded/WEB-INF/classes/app/entities/User.class" afterPath="$PROJECT_DIR$/out/artifacts/webtest_war_exploded/WEB-INF/classes/app/entities/User.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webtest_war_exploded/WEB-INF/classes/app/model/Model.class" afterPath="$PROJECT_DIR$/out/artifacts/webtest_war_exploded/WEB-INF/classes/app/model/Model.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webtest_war_exploded/WEB-INF/classes/app/servlets/AddServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/webtest_war_exploded/WEB-INF/classes/app/servlets/AddServlet.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webtest_war_exploded/WEB-INF/classes/app/servlets/EditServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/webtest_war_exploded/WEB-INF/classes/app/servlets/EditServlet.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webtest_war_exploded/WEB-INF/classes/app/servlets/ListServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/webtest_war_exploded/WEB-INF/classes/app/servlets/ListServlet.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webtest_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/webtest_war_exploded/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webtest_war_exploded/views/edit.jsp" afterPath="$PROJECT_DIR$/out/artifacts/webtest_war_exploded/views/edit.jsp" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webtest_war_exploded/views/list.jsp" afterPath="$PROJECT_DIR$/out/artifacts/webtest_war_exploded/views/list.jsp" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/User.java" afterPath="$PROJECT_DIR$/src/main/java/app/entities/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/Model.java" afterPath="$PROJECT_DIR$/src/main/java/app/model/LocalModel.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/AddServlet.java" afterPath="$PROJECT_DIR$/src/main/java/app/servlets/AddServlet.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/EditServlet.java" afterPath="$PROJECT_DIR$/src/main/java/app/servlets/EditServlet.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/ListServlet.java" afterPath="$PROJECT_DIR$/src/main/java/app/servlets/ListServlet.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entities/User.class" afterPath="$PROJECT_DIR$/target/classes/app/entities/User.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/model/Model.class" afterPath="$PROJECT_DIR$/target/classes/app/model/Model.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/AddServlet.class" afterPath="$PROJECT_DIR$/target/classes/app/servlets/AddServlet.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/EditServlet.class" afterPath="$PROJECT_DIR$/target/classes/app/servlets/EditServlet.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/ListServlet.class" afterPath="$PROJECT_DIR$/target/classes/app/servlets/ListServlet.class" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
-      <change beforePath="$PROJECT_DIR$/web/views/add.jsp" afterPath="$PROJECT_DIR$/web/views/add.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/views/edit.jsp" afterPath="$PROJECT_DIR$/web/views/edit.jsp" />
       <change beforePath="$PROJECT_DIR$/web/views/list.jsp" afterPath="$PROJECT_DIR$/web/views/list.jsp" />
-      <change beforePath="$PROJECT_DIR$/webtest.iml" afterPath="$PROJECT_DIR$/webtest.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -94,27 +71,17 @@
         <entry file="file://$PROJECT_DIR$/web/views/add.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+              <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModelType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/model/ModelType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -134,7 +101,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/AddServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,7 +135,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/ListServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+              <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,12 +143,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="list.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/views/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="73" column="43" lean-forward="false" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="43" />
-              <folding />
+            <state relative-caret-position="272">
+              <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -213,6 +182,7 @@
     <findStrings>
       <find>LocalM</find>
       <find>setStr</find>
+      <find>image</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\dolodarenko\.m2\repository\net\sourceforge\jtds\jtds\1.3.1\jtds-1.3.1.jar</dir>
@@ -245,9 +215,9 @@
         <option value="$PROJECT_DIR$/src/main/java/app/servlets/ListServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/servlets/EditServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/servlets/AddServlet.java" />
-        <option value="$PROJECT_DIR$/web/views/list.jsp" />
         <option value="$PROJECT_DIR$/web/views/edit.jsp" />
         <option value="$PROJECT_DIR$/web/views/add.jsp" />
+        <option value="$PROJECT_DIR$/web/views/list.jsp" />
       </list>
     </option>
   </component>
@@ -271,7 +241,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="291" />
     <option name="y" value="40" />
     <option name="width" value="1400" />
@@ -341,6 +311,12 @@
               <item name="webtest" type="b2602c69:ProjectViewProjectNode" />
               <item name="webtest" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webtest" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webtest" type="b2602c69:ProjectViewProjectNode" />
@@ -595,15 +571,15 @@
       <updated>1521635799840</updated>
       <workItem from="1521635803124" duration="10948000" />
       <workItem from="1521648112921" duration="4217000" />
-      <workItem from="1521704958339" duration="43344000" />
+      <workItem from="1521704958339" duration="48650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58509000" />
+    <option name="totallyTimeSpent" value="63815000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="7" />
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -623,7 +599,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33229166" sideWeight="0.69184124" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33229166" sideWeight="0.69184124" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -684,7 +660,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -742,7 +720,7 @@
         <state relative-caret-position="272">
           <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="e#350#351#0" expanded="false" />
             <element signature="e#372#373#0" expanded="false" />
             <element signature="e#399#400#0" expanded="false" />
@@ -788,7 +766,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="10" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -853,14 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
           <caret line="144" column="12" lean-forward="false" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/styles/w3.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -975,7 +947,7 @@
         <state relative-caret-position="255">
           <caret line="96" column="29" lean-forward="true" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -985,7 +957,7 @@
         <state relative-caret-position="714">
           <caret line="42" column="56" lean-forward="false" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <marker date="1521806604258" expanded="true" signature="722:805" ph="update bunny... " />
             <marker date="1521806604258" expanded="true" signature="928:989" ph="select id, n... bunny" />
             <marker date="1521806604258" expanded="true" signature="1045:1067" ph="select id, n... bunny" />
@@ -1000,7 +972,7 @@
         <state relative-caret-position="459">
           <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1010,7 +982,7 @@
         <state relative-caret-position="204">
           <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1042,7 +1014,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/ListServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1062,7 +1034,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/AddServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1073,14 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="73" column="43" lean-forward="false" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -1096,7 +1060,7 @@
     <entry file="file://$PROJECT_DIR$/web/views/add.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -1106,6 +1070,24 @@
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/w3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

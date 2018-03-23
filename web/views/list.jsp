@@ -12,8 +12,11 @@
     <link rel="stylesheet" href="styles/w3.css">
 </head>
 <body class="w3-light-grey">
-    <div class="w3-container w3-blue-grey w3-opacity w3-right-align">
-        <h1>Super bunnies :-)</h1>
+    <div class="w3-display-container">
+        <div class="w3-padding w3-display-right">
+            <img src="views/bunny.jpg" alt="Bunny" style="width:20%">
+            <div class="w3-padding w3-display-right"><h1>Super bunnies :-)</h1></div>
+        </div>
     </div>
 
     <div class="w3-container w3-center w3-margin-bottom w3-padding">
