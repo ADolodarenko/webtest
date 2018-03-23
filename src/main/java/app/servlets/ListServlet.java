@@ -2,6 +2,8 @@ package app.servlets;
 
 import app.entities.User;
 import app.model.Model;
+import app.model.ModelFactory;
+import app.model.ModelType;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -16,6 +18,8 @@ public class ListServlet extends HttpServlet
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException
 	{
+		req.setCharacterEncoding("cp1251");
+		
 		int action = checkAction(req);
 		
 		if (action == 0)
@@ -26,11 +30,11 @@ public class ListServlet extends HttpServlet
 			
 			if (idParam != null)
 			{
-				Model model = Model.getInstance();
+				Model model = ModelFactory.getModel(ModelType.DB);
 				User user = model.get(Integer.parseInt(idParam));
 				
 				req.setAttribute("user", user);
-				getServletContext().getRequestDispatcher("/webtest/edit").forward(req, resp);
+				getServletContext().getRequestDispatcher("/views/edit.jsp").forward(req, resp);
 			}
 		}
 	}
@@ -49,7 +53,7 @@ public class ListServlet extends HttpServlet
 				User user = new User();
 				user.setId(Integer.parseInt(idParam));
 				
-				Model model = Model.getInstance();
+				Model model = ModelFactory.getModel(ModelType.DB);
 				model.delete(user);
 			}
 			
@@ -63,7 +67,7 @@ public class ListServlet extends HttpServlet
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException
 	{
-		Model model = Model.getInstance();
+		Model model = ModelFactory.getModel(ModelType.DB);
 		Map<Integer, String> users = model.list();
 		req.setAttribute("users", users);
 		

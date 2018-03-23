@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/webtest">
+    <Resource
+            driverClassName="net.sourceforge.jtds.jdbc.Driver"
+            maxActive="4"
+            maxIdle="2"
+            maxWait="5000"
+            name="jdbc/WebtestDS"
+            username="dolodarenko"
+            password="killallhumas"
+            type="javax.sql.DataSource"
+            url="jdbc:jtds:sybase://192.168.0.62:5000/test;charset=cp1251"
+            validationQuery="SELECT 1">
+    </Resource>
+</Context>

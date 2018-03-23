@@ -1,4 +1,3 @@
-<%@ page import="java.util.List" %>
 <%@ page import="java.util.Map" %><%--
   Created by IntelliJ IDEA.
   User: dolodarenko
@@ -6,7 +5,7 @@
   Time: 16:34
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=cp1251" language="java" %>
 <html>
 <head>
     <title>Bunnies list</title>
@@ -27,8 +26,6 @@
 
                 if (users != null && !users.isEmpty())
                 {
-                	out.println("<form class=\"w3-container\" action=\"/webtest/list\" method=\"POST\">");
-
                 	out.println("<table class=\"w3-table-all w3-hoverable w3-centered\">");
 
                     //Заголовок таблицы
@@ -43,16 +40,16 @@
                     for (Map.Entry<Integer, String> value : users.entrySet())
                     {
                         out.println("<tr class=\"w3-hover-light-blue\">");
+                        out.println("<form action=\"/webtest/list\" method=\"post\" class=\"w3-container\">");
                         out.println("<td><input class=\"w3-input w3-border-0\" type=\"text\" maxlength=\"5\" size=\"5\" name=\"id\" value=\"" + value.getKey() + "\" readonly></td>");
                         out.println("<td>" + value.getValue() + "</td>");
-                        out.println("<td><input type=\"submit\" value=\"Edit\" name=\"Edit\"/></td>");
-                        out.println("<td><input type=\"submit\" value=\"Delete\" name=\"Delete\"/></td>");
+                        out.println("<td><input class=\"w3-btn w3-hover-light-grey w3-round-large\" type=\"submit\" value=\"Edit\" name=\"Edit\"/></td>");
+                        out.println("<td><input class=\"w3-btn w3-hover-light-grey w3-round-large\" type=\"submit\" value=\"Delete\" name=\"Delete\"/></td>");
+                        out.println("</form>");
                         out.println("</tr>");
                     }
 
                     out.println("</table>");
-
-                    out.println("</form>");
 
                     /*
                     out.println("<ul class=\"w3-ul\">");
@@ -84,7 +81,7 @@
     </div>
 
     <div class="w3-container w3-grey w3-opacity w3-right-align w3-padding">
-        <button class="w3-btn w3-round-large" onclick="location.href='/webtest'">Back to main</button>
+        <button class="w3-btn w3-hover-blue-gray w3-round-large" onclick="location.href='/webtest'">Back to main</button>
     </div>
 </body>
 </html>

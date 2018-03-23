@@ -5,7 +5,7 @@
   Time: 11:31
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=cp1251" language="java" %>
 <html>
 <head>
     <title>Edit the bunny</title>
@@ -27,7 +27,7 @@
 
             if (user != null)
             {
-            	out.println("<form method=\"post\" class=\"w3-selection w3-light-grey w3-padding\">");
+            	out.println("<form action=\"/webtest/edit\" method=\"post\" class=\"w3-selection w3-light-grey w3-padding\">");
 
             	out.println("<input type=\"text\" name=\"id\" value=\"" + user.getId() +
                         "\" class=\"w3-input w3-border-0\" style=\"width: 10%\" readonly\"><br/>");
@@ -48,7 +48,7 @@
 </div>
 
 <div class="w3-container w3-grey w3-opacity w3-right-align w3-padding">
-    <button class="w3-btn w3-round-large" onclick="location.href='/webtest/list'">Back to the list</button>
+    <button class="w3-btn w3-hover-blue-gray w3-round-large" onclick="location.href='/webtest/list'">Back to the list</button>
 </div>
 </body>
 </html>
