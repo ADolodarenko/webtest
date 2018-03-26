@@ -13,10 +13,8 @@
 </head>
 <body class="w3-light-grey">
     <div class="w3-display-container">
-        <div class="w3-padding w3-display-right">
-            <img src="views/bunny.jpg" alt="Bunny" style="width:20%">
-            <div class="w3-padding w3-display-right"><h1>Super bunnies :-)</h1></div>
-        </div>
+        <img src="views/bunny.jpg" alt="Bunny">
+        <div class="w3-padding w3-display-right"><h1>Super bunnies :-)</h1></div>
     </div>
 
     <div class="w3-container w3-center w3-margin-bottom w3-padding">
@@ -42,7 +40,7 @@
                     //данные
                     for (Map.Entry<Integer, String> value : users.entrySet())
                     {
-                        out.println("<tr class=\"w3-hover-light-blue\">");
+                        out.println("<tr class=\"w3-hover-pale-yellow\">");
                         out.println("<form action=\"/webtest/list\" method=\"post\" class=\"w3-container\">");
                         out.println("<td><input class=\"w3-input w3-border-0\" type=\"text\" maxlength=\"5\" size=\"5\" name=\"id\" value=\"" + value.getKey() + "\" readonly></td>");
                         out.println("<td>" + value.getValue() + "</td>");
@@ -83,8 +81,8 @@
         </div>
     </div>
 
-    <div class="w3-container w3-grey w3-opacity w3-right-align w3-padding">
-        <button class="w3-btn w3-hover-blue-gray w3-round-large" onclick="location.href='/webtest'">Back to main</button>
+    <div class="w3-container w3-khaki w3-opacity w3-right-align w3-padding">
+        <button class="w3-btn w3-text-brown w3-hover-brown w3-hover-text-sand w3-round-large" onclick="location.href='/webtest'">Back to main</button>
     </div>
 </body>
 </html>

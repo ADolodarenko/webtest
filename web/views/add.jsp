@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="styles/w3.css">
 </head>
 <body class="w3-light-grey">
-    <div class="w3-container w3-blue-grey w3-opacity w3-right-align">
-        <h1>Super bunnies :-)</h1>
+    <div class="w3-display-container">
+        <img src="views/bunny_again_part.jpg" alt="Bunny">
+        <div class="w3-padding w3-display-right w3-text-sand"><h1>Super bunnies :-)</h1></div>
     </div>
 
     <div class="w3-container w3-padding">
@@ -42,8 +43,8 @@
         </div>
     </div>
 
-    <div class="w3-container w3-grey w3-opacity w3-right-align w3-padding">
-        <button class="w3-btn w3-hover-blue-gray w3-round-large" onclick="location.href='/webtest/list'">Back to the list</button>
+    <div class="w3-container w3-khaki w3-opacity w3-right-align w3-padding">
+        <button class="w3-btn w3-text-brown w3-hover-brown w3-hover-text-sand w3-round-large" onclick="location.href='/webtest/list'">Back to the list</button>
     </div>
 </body>
 </html>
